@@ -1,0 +1,15 @@
+li:hover{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}

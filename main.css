@@ -18,3 +18,7 @@ h1{
     box-sizing: border-box;
     margin: 0;
 }
+
+header li{
+    display: inline;
+}

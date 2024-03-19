@@ -13,6 +13,9 @@ header li{
     margin: 0 auto;
 }
 
+.article {
+    display: flex;
+}
 
 a:hover{
     color: red;

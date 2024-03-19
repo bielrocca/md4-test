@@ -4,8 +4,22 @@
     padding: 0;
 }
 
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: white;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 header li{
     display: inline;
+}
+
+header li a {
+    color: white;
 }
 
 .container{
@@ -29,4 +43,26 @@ header li{
 
 a:hover{
     color: red;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
 }

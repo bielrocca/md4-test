@@ -15,6 +15,15 @@ header li{
 
 .article {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.article article img {
+    height: 180px;
+}
+
+.article article {
+    width: 30%;
 }
 
 a:hover{

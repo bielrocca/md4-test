@@ -13,9 +13,6 @@ header li{
     margin: 0 auto;
 }
 
-li:hover{
-    color: red;
-}
 
 a:hover{
     color: red;

@@ -63,10 +63,25 @@ section h2, .article article {
 }
 
 .article article a {
-    background-color: blue;
     color: white;
     padding: 8px;
     border-radius: 16px;
     display: inline-block;
     text-decoration: none;
+}
+
+#sports {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#sports .article article a {
+    background-color: blue;
+}
+
+#economy {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+#economy .article article a {
+    background-color: green;
 }

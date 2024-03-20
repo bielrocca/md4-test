@@ -95,3 +95,10 @@ section h2, .article article {
     background-color: red;
 }
 
+#enter {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+#enter .article article a {
+    background-color: rgb(0, 140, 255);
+}
